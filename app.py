@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-  return 'Hello World!'
+  return '<h1>Hello, Docker!</h1><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png">'
 
 
 if __name__ == '__main__':
